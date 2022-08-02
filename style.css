@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+body {
+    background-color: #fff;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+td {
+    vertical-align: top;
+}
+
+.conteiner {
+    max-width: 900px;
+    margin: 40px;
+    background-color: #f0f0f0;
+}
+
+.avatar {
+    margin: 5px 5px;
+    border-radius: 50px;
+    width: 300px;
+}
+
+.info {
+    display: flex;
+}
+
+.info-text {
+    margin-left: 20px;
+}
+
+.table {
+    font-size: 12px;
+    padding: 10px;
+    background: #e2e2e2;
+    table-layout: fixed;
+    width: 100%;
+    line-height: 30px;
+    border-radius: 20px;
+}
+
+.hobbi {
+    background: #e2e2e2;
+    border-radius: 20px;
+}
+
+h3 {
+    display: inline-block;
+    position: relative;
+}
+
+h3::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    height: 5px;
+    background: #868986;
+}
+
+.form-group label {
+    display: block;
+    margin: 5px;
+    font-size: 14px;
+    color: #868986;
+}
+
+.form-group input,.form-group textarea {
+    margin-left: 5px;
+}
+
+.btn {
+    color: #000;
+    text-decoration: none;
+    user-select: none;
+    background: lightgray;
+    padding: .7em 1.5em;
+    outline: none;
+    margin-left: 5px;
+}
+
+.btn:hover {
+    background: rgba(211, 211, 211, 0.178);
+}
+
+.btn:active {
+    background: lightslategray;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
